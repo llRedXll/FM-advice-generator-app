@@ -1,0 +1,28 @@
+//colors
+$neon-green: hsl(150, 100%, 66%);
+
+$blue-100: hsl(193, 38%, 86%);
+$blue-200: hsl(217, 19%, 38%);
+$blue-300: hsl(217, 19%, 24%);
+$blue-400: hsl(218, 23%, 16%);
+
+
+
+body {
+    background: $blue-400;
+}
+
+#divider {
+    &--mobile {
+        display: none;
+    }
+}
+
+// frontend mentor attribution styles
+.attribution { 
+    font-size: 11px; text-align: center;
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}

@@ -4,25 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Advice generator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
   </style>
 </head>
 <body>
+  <main>
+    <section class="advice-card">
+      <h4>Advice #<span class="advice-card--id"></span></h4>
+      <p class="advice-card--adviceText"></p>
+      <div id="divider">
+        <img id="divider--desktop" src="assets/images/pattern-divider-desktop.svg">  
+        <img id="divider--mobile" src="assets/images/pattern-divider-mobile.svg">  
+      </div>
+    </section>
+  </main>
 
-  Advice #<!-- Advice ID goes here -->
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.hectorgarcia.dev">Red X</a>.
+    </div>
+  </footer>
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <script src="main.js"></script>
 </body>
 </html>
