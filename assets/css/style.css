@@ -1,15 +1,1 @@
-body {
-  background: hsl(218deg, 23%, 16%);
-}
-
-#divider--mobile {
-  display: none;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-}/*# sourceMappingURL=style.css.map */
+body{background:#1f2632;font-family:"Manrope",sans-serif;font-weight:800}main{height:100vh}.flex-center{display:flex;justify-content:center;align-items:center}.advice-card{flex-basis:540px;flex-direction:column;background-color:#323a49;padding:20px 0;border-radius:15px}.advice-card--id{color:#52ffa8;font-size:14px;letter-spacing:.25em;padding:20px 0 5px;text-transform:uppercase}.advice-card--adviceText{color:#cee3e9;font-size:28px;line-height:38.5px;margin:20px 40px;text-align:center}.advice-card--button{background-color:#52ffa8;width:64px;height:64px;border-radius:100%;border:none;cursor:pointer;margin:12px auto -50px;transition:box-shadow .2s ease}.advice-card--button:hover{box-shadow:0 0 20px 1px #52ffa8}#divider{margin:24px auto 30px}#divider--mobile{display:none}.attribution{font-size:11px;text-align:center}.attribution a{color:#3e52a3}

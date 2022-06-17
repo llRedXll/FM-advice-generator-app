@@ -4,35 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="stylesheet" href="assets/css/style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
 </head>
 <body>
-  <main>
-    <section class="advice-card">
-      <h4>Advice #<span class="advice-card--id"></span></h4>
-      <p class="advice-card--adviceText"></p>
-      <div id="divider">
-        <img id="divider--desktop" src="assets/images/pattern-divider-desktop.svg">  
-        <img id="divider--mobile" src="assets/images/pattern-divider-mobile.svg">  
+  <main class="flex-center">
+    <section class="advice-card flex-center">
+        <h4 class="advice-card--id">Advice #
+          <span id="advice-card--idNumber"></span>
+        </h4>
+        <p class="advice-card--adviceText">
+          “it is easy to sit up and take notice, what’s difficult is getting up and taking action.”
+        </p>
+        <div id="divider">
+          <img id="divider--desktop" src="assets/images/pattern-divider-desktop.svg">  
+          <img id="divider--mobile" src="assets/images/pattern-divider-mobile.svg">  
       </div>
+      <button class="advice-card--button flex-center">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/>
+        </svg>
+      </button>
     </section>
   </main>
 
-  <footer>
+  <!-- <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://www.hectorgarcia.dev">Red X</a>.
     </div>
-  </footer>
+  </footer> -->
 
   <script src="main.js"></script>
 </body>

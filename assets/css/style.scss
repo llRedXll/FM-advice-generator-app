@@ -10,9 +10,64 @@ $blue-400: hsl(218, 23%, 16%);
 
 body {
     background: $blue-400;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    
+}
+
+main {
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-card {
+    flex-basis: 540px;    
+    flex-direction: column;
+    background-color: $blue-300;
+    padding: 20px 0;
+    border-radius: 15px;
+
+    &--id {
+        color: $neon-green;
+        font-size: 14px;
+        letter-spacing: 0.25em;
+        padding: 20px 0 5px;
+        text-transform: uppercase;
+    }
+
+    &--adviceText {
+        color: $blue-100;
+        font-size: 28px;
+        line-height: 38.5px;
+        margin: 20px 40px;
+        text-align: center;
+    }
+
+    &--button {
+        background-color: $neon-green;
+        width: 64px;
+        height: 64px;
+        border-radius: 100%; 
+        border: none;
+        cursor: pointer;
+        margin: 12px auto -50px;
+        transition: box-shadow 0.2s ease;
+
+        &:hover {
+            box-shadow: 0 0 20px 1px $neon-green;
+        }
+    }
 }
 
 #divider {
+
+    margin: 24px auto 30px;
+
     &--mobile {
         display: none;
     }
