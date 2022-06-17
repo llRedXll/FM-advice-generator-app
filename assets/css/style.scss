@@ -78,6 +78,23 @@ main {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .advice-card {
+        margin: auto 20px;
+
+        &--id {
+            font-size: 12px;
+        }
+    
+        &--adviceText {
+            font-size: 24px;
+            line-height: 33px;
+            margin: 20px 20px;
+
+        }
+    }
+}
+
 // frontend mentor attribution styles
 .attribution { 
     font-size: 11px; text-align: center;
