@@ -70,7 +70,6 @@ main {
 }
 
 #divider {
-
     margin: 24px auto 30px;
 
     &--mobile {
@@ -90,7 +89,17 @@ main {
             font-size: 24px;
             line-height: 33px;
             margin: 20px 20px;
+        }
+    }
 
+    #divider {
+
+        &--desktop {
+            display: none;
+        }
+
+        &--mobile {
+            display: block;
         }
     }
 }
