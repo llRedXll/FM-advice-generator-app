@@ -4,7 +4,7 @@ document.querySelector('.advice-card--button').addEventListener('click', getAdvi
 
 async function getAdvice(){
     try {
-        const res = await fetch('https://api.adviceslip.com/advice')
+        const res = await fetch('https://api.adviceslip.com/advice', {cache: 'no-cache'})
         const data = await res.json()
         console.log(data.slip)
 
@@ -15,5 +15,3 @@ async function getAdvice(){
         console.log(error)
     }
 }
-
-//TODO: Figure out why it doesn't get a new advice slip when you click the button again.
